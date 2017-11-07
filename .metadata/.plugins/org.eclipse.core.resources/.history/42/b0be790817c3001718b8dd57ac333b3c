@@ -1,0 +1,15 @@
+
+public class Ejercicio6vectores {
+
+	public static void main(String[] args) {
+		double matriz [][] = new double[10][10];
+		int f, c;
+		for(f = 0; f < 5; c++){
+			for(c = 0; c < 5; c++){
+				System.out.println(matriz [f][c]);
+			}
+		}
+
+	}
+
+}

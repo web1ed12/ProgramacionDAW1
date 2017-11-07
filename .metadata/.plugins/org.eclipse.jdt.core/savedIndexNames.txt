@@ -1,0 +1,5 @@
+INDEX VERSION 1.130+C:\Programacion\Vectores\wks_vectores\.metadata\.plugins\org.eclipse.jdt.core
+847905363.index
+477899477.index
+2576301201.index
+636556816.index

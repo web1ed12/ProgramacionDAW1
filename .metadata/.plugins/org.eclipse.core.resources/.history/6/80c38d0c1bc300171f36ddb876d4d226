@@ -1,0 +1,19 @@
+//7. Generar una matriz de 5x5 numérica entera entre -10 y 10, a continuación pedir dos números
+//de fila, que se deben filtrar entre 1 y 5 e intercambiar ambas filas. Presentar las matrices antes
+//y después del cambio
+public class Ejercicio7vectores {
+
+	public static void main(String[] args) {
+		int matriz [][] = new int [5][5];
+		int fila, columna;
+		for(fila = 0; fila < 5; fila++){
+			for(columna = 0; columna < 5; columna++){
+				matriz[fila][columna] = (int)Math.floor(Math.random()*11);
+				System.out.printf(String.format("%8.0f",matriz[fila][columna]));
+			}
+		}
+		
+
+	}
+
+}
